@@ -35,3 +35,19 @@ pre_state          = run shadow-1786782891, open_positions 0, drawdown 158785316
                      loss_streak 2, halts_raised 8, entries_allowed false
 published_at       = 2026-08-15T21:53:39+00:00
 ```
+
+## 2026-08-15 — Study-5 chaos drills ROUND 2 declaration (pre-run)
+
+Round 1 drill A' FAILED (restart cleared an active drawdown halt; root cause
+F25a: store URL defaulted to port 5432, server on 55432, so every daemon start
+ran without persistence). Round 1's FAIL stands and is not superseded.
+Round 2 asks the separate open question: does persistence work once attached?
+
+```
+declaration_file   = reports/audits/t85b/chaos-drill-declaration-round2.md
+declaration_sha256 = 6ee647748cbeabf65059ae577a50a3db80bbe94f9fb588be2b47b1195633e7f4
+runbook_commit     = f4e7cbb4ce4f204aa3f3a1423160f5c34a483a34
+store_attached_at  = 2026-08-15T22:05:48Z (log: state rebuilt from the decision log)
+run_id             = shadow-1786831548
+published_at       = 2026-08-15T22:08:51+00:00
+```
