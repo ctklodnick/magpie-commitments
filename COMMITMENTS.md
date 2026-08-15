@@ -19,3 +19,19 @@ seed               = revealed t85b seed (commitment bc51bb35..., this ledger, en
 sub_draw_labels    = -study2d-slots, -study2d-class (first use)
 published_at       = 2026-08-15T08:48:25+00:00
 ```
+
+## 2026-08-15 — Study-5 chaos drill declaration (pre-run)
+
+Anchored BEFORE the first drill. Pass criteria fixed at declaration time.
+Close-plan drill (a) mid-open-position is DEFERRED, declared in advance:
+the trader's own UTC-day drawdown halt is active, so no position can open,
+and the halt will not be cleared to manufacture a test condition.
+
+```
+declaration_file   = reports/audits/t85b/chaos-drill-declaration.md (private repo)
+declaration_sha256 = adb1644d2c6a28c2d8d1638a51862f4ce4183d2593a87c4e349c48aa051336f1
+runbook_commit     = 17e12cd1d41ea69b7c3a30c3f0ecc7a083df7e04
+pre_state          = run shadow-1786782891, open_positions 0, drawdown 1587853168 lamports,
+                     loss_streak 2, halts_raised 8, entries_allowed false
+published_at       = 2026-08-15T21:53:39+00:00
+```
