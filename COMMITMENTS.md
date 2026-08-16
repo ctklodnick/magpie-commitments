@@ -82,3 +82,21 @@ declaration_sha256 = ed61addc63392f87aa1c2be2392926d58f1baac48edffe972ffb62fdbe6
 runbook_commit     = 3b4fd7e8e5c8fa463764b649a30ad06a0352a580
 published_at       = 2026-08-16T03:19:00+00:00
 ```
+
+## 2026-08-16 — Study-2 RECALL classification declaration (pre-inspection)
+
+External review established that Study 2 proved precision far better than
+recall: n=30 with 0 findings bounds the miss fraction only at ~9.5%. This
+declares a powered reclassification on the FROZEN audit2d corpus. Anchored
+before any signature is looked up, because reclassification on frozen data
+carries the same temptation to peek as a fresh window.
+
+```
+declaration_file   = reports/audits/t85b/study2-recall-declaration.md
+declaration_sha256 = 4385482e462f69afd9615726d8cdb8d846a3dfd7c889e1f889ab26314cf137b4
+runbook_commit     = 5c5406951940a11ee6fdd5bdc743e5dd3482f90d
+population         = REFERENCE_ONLY = 227,438 (matched 768,068; magpie-only 3,713,930)
+sample             = n=3000, label -study2d-recall-3000 (first use)
+tolerance          = one-sided 95% upper bound on supported-event fraction <= 0.1%
+published_at       = 2026-08-16T03:48:39+00:00
+```
