@@ -68,3 +68,17 @@ runbook_commit     = 891c0d267100a6bea8190175dfe41e024dc7b451
 bound              = 90 minutes; halts must fire naturally, never induced
 published_at       = 2026-08-16T03:08:01+00:00
 ```
+
+## 2026-08-15 — Study-5 chaos ROUND 4 declaration (pre-run): drill A, mid-open-position
+
+Last unexercised preregistered element of Arc Audit #2. Deferred at round 1
+because a drawdown halt blocked entries and the halt was not cleared to
+manufacture the condition. 30-minute bound precommitted; positions must open
+naturally.
+
+```
+declaration_file   = reports/audits/t85b/chaos-drill-declaration-round4.md
+declaration_sha256 = ed61addc63392f87aa1c2be2392926d58f1baac48edffe972ffb62fdbe6d02ce
+runbook_commit     = 3b4fd7e8e5c8fa463764b649a30ad06a0352a580
+published_at       = 2026-08-16T03:19:00+00:00
+```
