@@ -51,3 +51,20 @@ store_attached_at  = 2026-08-15T22:05:48Z (log: state rebuilt from the decision 
 run_id             = shadow-1786831548
 published_at       = 2026-08-15T22:08:51+00:00
 ```
+
+## 2026-08-15 — Study-5 chaos ROUND 3 declaration (pre-run): halt survival
+
+Round 1 drill A' FAILED (restart cleared an active drawdown halt). Round 2
+proved persistence works once the store is attached but could NOT score halt
+survival - no halt was active at kill time - and recorded it as still open.
+This drill closes that sub-case against the fixed build (F25a+F25b, 07821ba).
+A 90-minute bound is precommitted: if no halt fires naturally within it, the
+drill is recorded NOT RUN rather than provoked.
+
+```
+declaration_file   = reports/audits/t85b/chaos-drill-declaration-round3.md
+declaration_sha256 = e36be77aa57752980ac449c1ff1c2d7a5087e039d68ab1849079ef2814d4b5ea
+runbook_commit     = 891c0d267100a6bea8190175dfe41e024dc7b451
+bound              = 90 minutes; halts must fire naturally, never induced
+published_at       = 2026-08-16T03:08:01+00:00
+```
