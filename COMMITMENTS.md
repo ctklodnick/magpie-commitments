@@ -100,3 +100,19 @@ sample             = n=3000, label -study2d-recall-3000 (first use)
 tolerance          = one-sided 95% upper bound on supported-event fraction <= 0.1%
 published_at       = 2026-08-16T03:48:39+00:00
 ```
+
+## 2026-08-16 — T8.6 provenance trace window (pre-T0)
+
+First window with pre-parser receipt provenance (F30 instrument). Purpose:
+catch an F28-class loss in the act and read FIRST_PROVEN_LOSS_STAGE.
+Both readings of the decisive fork (provider omission vs our own drop) are
+fixed in the declaration before any data is seen, and a tracer-health guard
+makes receipt-absence inadmissible when trace rows were shed.
+
+```
+declaration_file   = reports/audits/t86/trace-window-declaration.md
+declaration_sha256 = 2815ac1491c3a8194b412a9f0ae7e13f8cc75268bd512b2612e748c12c317e1c
+runbook_commit     = b7c11214ca5967c9b8698d4008d443926bf42891
+duration           = 2.0 h; hard stop OS-enforced; feed off at end
+published_at       = 2026-08-16T05:55:56+00:00
+```
